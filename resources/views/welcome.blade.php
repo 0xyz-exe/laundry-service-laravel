@@ -1,0 +1,1 @@
+<x-guest-layout><div class="p-8 text-center"><h1 class="text-2xl font-bold">Online Laundry Service</h1><p>Schedule a pickup, choose a service, track your order.</p><a class="text-indigo-700 underline" href="{{ route('login') }}">Sign in</a> · <a class="text-indigo-700 underline" href="{{ route('register') }}">Create account</a></div></x-guest-layout>

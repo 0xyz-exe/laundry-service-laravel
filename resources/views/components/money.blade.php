@@ -1,0 +1,1 @@
+@props(['minor'])Rp {{ number_format(intdiv((int) $minor, 100), 0, ',', '.') }},{{ str_pad((string) ((int) $minor % 100), 2, '0', STR_PAD_LEFT) }}
