@@ -14,6 +14,17 @@ A standalone Laravel application for ordering laundry pickup and tracking servic
 - Admin daily/monthly reports and CSV export, calculated from persisted orders.
 - Customers can access/cancel only their own eligible orders; staff can access/update assigned orders only.
 
+## Screenshots
+
+| Tampilan | Preview |
+|---|---|
+| **Portal Pelanggan & Riwayat Pesanan**<br>Formulir pemesanan penjemputan cucian, pemilihan paket kiloan/satuan, dan riwayat status pesanan aktif | ![Portal Pelanggan & Riwayat Pesanan](docs/screenshots/01-laundry-portal-orders.png) |
+| **Tanda Terima & Pelacakan Work Order**<br>Rincian nota cucian, snapshot harga per item, dan jejak audit lini masa status operasional (Event Timeline) | ![Pelacakan Work Order](docs/screenshots/02-order-tracking-work-order.png) |
+| **Antrean Operasional Staf (Processing Queue)**<br>Panel kerja operator laundry untuk memproses transisi status (Confirmed/Processing/Ready), alokasi staf, dan pembayaran | ![Antrean Operasional Staf](docs/screenshots/03-staff-operations-queue.png) |
+| **Katalog Layanan & Manajemen Tarif**<br>Pengaturan master paket layanan laundry, konfigurasi satuan tarif (per kg atau per item), dan status keaktifan | ![Katalog Layanan & Tarif](docs/screenshots/04-service-pricing-catalog.png) |
+
+---
+
 ## Local setup (Windows)
 
 ```powershell
